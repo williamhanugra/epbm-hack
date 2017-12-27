@@ -39,14 +39,15 @@ function hackEPBM(jumlah_dosen, kesan){
 * and paste to console
 * count number of *dosen*/lecturers
 * rate it ! (1,2,3)
+* type `hackEPBM(jumlah_dosen, kesan)`
+* e.g `hackEPBM(4, 3)`
+* Submit and Enjoy
+
 | Kesan         | Random-Choose                         |
 | :------------:|:-------------------------------------:|
 | 1             | Sangat Tidak Setuju atau Tidak Setuju |
 | 2             | Tidak Setuju atau Setuju              |
 | 3             | Setuju atau Sangat Setuju             |
-* type `hackEPBM(jumlah_dosen, kesan)`
-* e.g `hackEPBM(4, 3)`
-* Submit and Enjoy
 
 Disclaimer
 ==========
