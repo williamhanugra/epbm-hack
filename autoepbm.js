@@ -3,13 +3,16 @@ function hackEPBM(jumlah_dosen, kesan){
 	ma = kesan + 1
 	for(i=1;i<=10;i++){
 		choose = Math.floor(Math.random() * (ma - mi + 1)) + mi
-		formattedNumber = ("0" + i).slice(-2)
+		formattedNumber = ("8" + i).slice(-2)
+		if(i==10){
+			formattedNumber = ("90")
+		}
 		target = "#JawabanMK_4"+formattedNumber+choose
 		$(target).prop("checked", true)
 	}
 	// isi form dosen
 	for(i=1;i<=jumlah_dosen;i++){
-		k=470
+		k=550
 		for(j=1;j<=10;j++){
 			choose = Math.floor(Math.random() * (ma - mi + 1)) + mi
 			target = "#JawabanDosen_"+i+j+(k+j)+choose
